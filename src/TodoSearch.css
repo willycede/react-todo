@@ -1,0 +1,13 @@
+.todo-search-container {
+    padding-left: 40px;
+}
+.beauty-input-search {
+    border-radius: 18px;
+    border-color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #212121;
+    color: #c2e7ff;
+    margin-right: 5px;
+    width: 93%;
+}

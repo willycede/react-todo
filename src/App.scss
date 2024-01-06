@@ -1,0 +1,12 @@
+.todo-body .left-side {
+    flex-grow: 1;
+    margin-right: 5px;
+    background-color: #424242;
+    border-radius: 12px;
+    display: flex;
+}
+
+.todo-body .right-side {
+    flex-grow: 1;
+    margin-left: 10px;
+}
