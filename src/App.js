@@ -15,10 +15,10 @@ function App() {
     <>
       <TodoCounter totalTodos={10} completedTodos={5}/>
       <TodoBody>
-        <div className='left-side'>
+        <div className='todo-body__left-side'>
           <CreateTodoButton/>
         </div>
-        <div className='right-side'>
+        <div className='todo-body__right-side'>
           <TodoSearch/>
           <TodoList>
             {

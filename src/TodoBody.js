@@ -1,4 +1,4 @@
-import './TodoBody.css';
+import './TodoBody.scss';
 function TodoBody ({children}){
     return (
         <div className="todo-body">

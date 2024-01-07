@@ -1,4 +1,4 @@
-import './TodoItem.css';
+import './TodoItem.scss';
 import { MdCancel, MdCheckCircleOutline } from "react-icons/md";
 
 function TodoItem({text, completed}) {

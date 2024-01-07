@@ -1,8 +1,8 @@
-import './TodoSearch.css';
+import './TodoSearch.scss';
 function TodoSearch() {
     return (
       <div className="todo-search-container">
-        <input className="beauty-input-search" placeholder="Cortar cebolla"/>
+        <input className="todo-search-container__beauty-input-search" placeholder="Cortar cebolla"/>
       </div>
       
     );

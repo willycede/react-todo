@@ -1,5 +1,5 @@
 
-import './TodoCounter.css';
+import './TodoCounter.scss';
 function TodoCounter({
     totalTodos,
     completedTodos
@@ -7,10 +7,10 @@ function TodoCounter({
     return (
       <>
         <div className='todo-header'>
-          <h1>
+          <h1 className='todo-header__title'>
             Tareas
           </h1>
-          <h1>
+          <h1 className='todo-header__title'>
             Has completado {completedTodos} de {totalTodos} tareas
           </h1>
         </div>
